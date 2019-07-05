@@ -207,5 +207,14 @@ import {renderedDive} from "enzyme/src/Utils";  // + рендер
 // Потому лучше использовать React.Fragment.
 //  */
 
+// В JSX можно задавать классы компонентам,
+// совсем как тегам html задаем классы - так и есть!
+//
+// const element = (
+//   <h1 className="greeting">
+//     Hello
+//   </h1>
+// );
+
 
 
