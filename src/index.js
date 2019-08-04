@@ -216,5 +216,15 @@ import {renderedDive} from "enzyme/src/Utils";  // + рендер
 //   </h1>
 // );
 
+// Функциональные и классовые React-компоненты
 
+function Welcome(props) {
+  return <h1>Привет, {props.name}</h1>;
+}
+
+class Welcome extends React.Component {
+  render() {
+    return <h1>Привет, {this.props.name}</h1>
+  }
+}
 
